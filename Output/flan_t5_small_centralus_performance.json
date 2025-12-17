@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "task_name": "workload_flan_t5_small_centralus",
+    "generated_at": "2025-10-19T07:29:31.548872",
+    "total_execution_time": "640.30 秒",
+    "csv_file_path": "/root/workload_flan_t5_small_centralus_20251019_071849.csv",
+    "sample_count": 480,
+    "sampling_interval": 1,
+    "position_used": true,
+    "cloud_region": "centralus"
+  },
+  "energy_metrics": {
+    "cpu_energy_joules": 8644.05,
+    "dram_energy_joules": 208722.26,
+    "total_energy_joules": 341260.3,
+    "carbon_emissions_kg": 0.030807880271269558,
+    "carbon_emissions_lbs": 0.06791980518013889,
+    "gpu_energy_joules": {
+      "0": 123893.99
+    }
+  },
+  "cpu_dram_metrics": {
+    "cpu_usage": {
+      "mean": 0.0,
+      "max": 0.0,
+      "min": 0.0,
+      "mode": 0.0
+    },
+    "cpu_power": {
+      "mean": 13.5,
+      "max": 13.5,
+      "min": 13.5,
+      "mode": 13.5
+    },
+    "dram_usage": {
+      "mean": 0.92,
+      "max": 1.0,
+      "min": 0.0,
+      "mode": 0.9
+    },
+    "dram_power": {
+      "mean": 325.98,
+      "max": 326.16,
+      "min": 324.0,
+      "mode": 325.94
+    }
+  },
+  "gpu_metrics": {
+    "0": {
+      "name": "NVIDIA A100 80GB PCIe",
+      "energy": {
+        "power.draw [W]": {
+          "mean": 195.43,
+          "max": 337.03,
+          "min": 55.35,
+          "mode": 55.54
+        },
+        "temperature.gpu": {
+          "mean": 61.29,
+          "max": 74.0,
+          "min": 35.0,
+          "mode": 66.0
+        }
+      },
+      "compute": {
+        "utilization.gpu [%]": {
+          "mean": 53.86,
+          "max": 93.0,
+          "min": 0.0,
+          "mode": 86.0
+        },
+        "clocks.current.graphics [MHz]": {
+          "mean": 1367.53,
+          "max": 1410.0,
+          "min": 210.0,
+          "mode": 1410.0
+        },
+        "clocks.current.sm [MHz]": {
+          "mean": 1367.53,
+          "max": 1410.0,
+          "min": 210.0,
+          "mode": 1410.0
+        }
+      },
+      "memory": {
+        "utilization.memory [%]": {
+          "mean": 13.06,
+          "max": 24.0,
+          "min": 0.0,
+          "mode": 22.0
+        },
+        "temperature.memory": {
+          "mean": 67.87,
+          "max": 77.0,
+          "min": 48.0,
+          "mode": 70.0
+        },
+        "clocks.current.memory [MHz]": {
+          "mean": 1512.0,
+          "max": 1512.0,
+          "min": 1512.0,
+          "mode": 1512.0
+        }
+      },
+      "communication": {
+        "pcie.link.gen.current": {
+          "mean": 4.0,
+          "max": 4.0,
+          "min": 4.0,
+          "mode": 4.0
+        },
+        "pcie.link.width.current": {
+          "mean": 16.0,
+          "max": 16.0,
+          "min": 16.0,
+          "mode": 16.0
+        }
+      },
+      "other": {}
+    }
+  }
+}

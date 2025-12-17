@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "task_name": "workload_flan_t5_small_us-east1",
+    "generated_at": "2025-10-22T15:25:04.416212",
+    "total_execution_time": "813.70 秒",
+    "csv_file_path": "/root/workload_flan_t5_small_us-east1_20251022_151129.csv",
+    "sample_count": 511,
+    "sampling_interval": 1,
+    "position_used": true,
+    "cloud_region": "us-east1"
+  },
+  "energy_metrics": {
+    "cpu_energy_joules": 10984.95,
+    "dram_energy_joules": 204163.65,
+    "total_energy_joules": 331817.8,
+    "carbon_emissions_kg": 0.03069280651815485,
+    "carbon_emissions_lbs": 0.0676661107739,
+    "gpu_energy_joules": {
+      "0": 116669.2
+    }
+  },
+  "cpu_dram_metrics": {
+    "cpu_usage": {
+      "mean": 0.0,
+      "max": 0.0,
+      "min": 0.0,
+      "mode": 0.0
+    },
+    "cpu_power": {
+      "mean": 13.5,
+      "max": 13.5,
+      "min": 13.5,
+      "mode": 13.5
+    },
+    "dram_usage": {
+      "mean": 1.16,
+      "max": 1.3,
+      "min": 0.0,
+      "mode": 1.1
+    },
+    "dram_power": {
+      "mean": 250.92,
+      "max": 251.16,
+      "min": 249.0,
+      "mode": 250.83
+    }
+  },
+  "gpu_metrics": {
+    "0": {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "energy": {
+        "power.draw [W]": {
+          "mean": 158.4,
+          "max": 277.77,
+          "min": 57.74,
+          "mode": 63.03
+        },
+        "temperature.gpu": {
+          "mean": 46.39,
+          "max": 54.0,
+          "min": 36.0,
+          "mode": 42.0
+        }
+      },
+      "compute": {
+        "utilization.gpu [%]": {
+          "mean": 46.93,
+          "max": 90.0,
+          "min": 0.0,
+          "mode": 20.0
+        },
+        "clocks.current.graphics [MHz]": {
+          "mean": 1339.32,
+          "max": 1410.0,
+          "min": 210.0,
+          "mode": 1410.0
+        },
+        "clocks.current.sm [MHz]": {
+          "mean": 1339.32,
+          "max": 1410.0,
+          "min": 210.0,
+          "mode": 1410.0
+        }
+      },
+      "memory": {
+        "utilization.memory [%]": {
+          "mean": 13.72,
+          "max": 26.0,
+          "min": 0.0,
+          "mode": 5.0
+        },
+        "temperature.memory": {
+          "mean": 42.93,
+          "max": 50.0,
+          "min": 35.0,
+          "mode": 40.0
+        },
+        "clocks.current.memory [MHz]": {
+          "mean": 1215.0,
+          "max": 1215.0,
+          "min": 1215.0,
+          "mode": 1215.0
+        }
+      },
+      "communication": {
+        "pcie.link.gen.current": {
+          "mean": 4.0,
+          "max": 4.0,
+          "min": 4.0,
+          "mode": 4.0
+        },
+        "pcie.link.width.current": {
+          "mean": 16.0,
+          "max": 16.0,
+          "min": 16.0,
+          "mode": 16.0
+        }
+      },
+      "other": {}
+    }
+  }
+}

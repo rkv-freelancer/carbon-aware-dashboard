@@ -1,0 +1,39 @@
+{
+  "model": "bart-small",
+  "region": "us-west1",
+  "device": "cpu",
+  "num_samples": 10,
+  "total_time_seconds": 34.37655448913574,
+  "avg_time_per_sample": 3.437655448913574,
+  "throughput_samples_per_second": 0.29089593615789416,
+  "compression_metrics": {
+    "avg_input_tokens": 231.9,
+    "avg_output_tokens": 76.1,
+    "avg_input_chars": 1400.1,
+    "avg_output_chars": 421.5,
+    "token_compression_ratio": 3.0473061760841,
+    "char_compression_ratio": 3.3217081850533807
+  },
+  "sample_summaries": [
+    {
+      "article_preview": "Scientists have discovered a new species of deep-sea fish in the Mariana Trench. The fish, which has...",
+      "summary": "Scientists have discovered a new species of deep-sea fish in the Mariana Trench. The fish, which has been named Pseudoliparis swirei, was found at a depth of 8,000 meters below the surface during a month-long expedition."
+    },
+    {
+      "article_preview": "A new study published in Nature reveals that climate change is affecting bird migration patterns acr...",
+      "summary": "Wildlife is changing rapidly in North America, with some species advancing their arrival by as much as two weeks. A new study reveals that climate change is affecting bird migration patterns across North America."
+    },
+    {
+      "article_preview": "The latest artificial intelligence model from OpenAI has demonstrated unprecedented capabilities in ...",
+      "summary": "The latest artificial intelligence model from OpenAI has been unveiled in the United States. The model, built on transformer architecture with 175 billion parameters, can perform complex reasoning tasks and maintain coherent conversations across multiple topics while showing improved accuracy in factual responses."
+    },
+    {
+      "article_preview": "Astronomers using the powerful telescopes atop Mauna Kea on Hawaii's Big Island have discovered an E...",
+      "summary": "Scientists have discovered an exoplanet in the habitable zone of Mauna Kea. The planet, located 40 light-years away in the constellation Virgo, orbits within the temperature range where liquid water could exist on its surface. The discovery team includes researchers from the University of Hawaii's Institute for Astronomy and international collaborators. This groundbreaking discovery utilized the combined capabilities of the Keck Observatory and Subaru Telescope, both situated at the 13,796-foot summit of Hawaii."
+    },
+    {
+      "article_preview": "Hawaii has reached a historic milestone in its transition to renewable energy, with solar and wind p...",
+      "summary": "Hawaii has reached a historic milestone in its transition to renewable energy by 2045. This achievement places Hawaii well ahead of its ambitious goal to achieve 100 percent renewable energy. The Big Island leads the transformation with 80 percent renewable penetration, primarily from geothermal energy tapped from Kilauea volcano's heat and extensive solar farms across Kona and Hilo districts. Oahu's grid integration challenges are being addressed through smart grid technology and distributed energy resources including rooftop solar installations on over 100,000 homes. Hawaii's success serves as a model for island nations worldwide seeking energy independence."
+    }
+  ]
+}

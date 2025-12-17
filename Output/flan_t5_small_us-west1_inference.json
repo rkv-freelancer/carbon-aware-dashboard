@@ -1,0 +1,39 @@
+{
+  "model": "flan-t5-small",
+  "region": "us-west1",
+  "device": "cpu",
+  "num_samples": 10,
+  "total_time_seconds": 9.805350303649902,
+  "avg_time_per_sample": 0.9805350303649902,
+  "throughput_samples_per_second": 1.0198513760673744,
+  "compression_metrics": {
+    "avg_input_tokens": 259.2,
+    "avg_output_tokens": 37.5,
+    "avg_input_chars": 1400.1,
+    "avg_output_chars": 169.6,
+    "token_compression_ratio": 6.912,
+    "char_compression_ratio": 8.255306603773585
+  },
+  "sample_summaries": [
+    {
+      "article_preview": "summarize: Scientists have discovered a new species of deep-sea fish in the Mariana Trench. The fish...",
+      "summary": "Scientists have discovered a new species of deep-sea fish that can adapt to extreme conditions in the Pacific Ocean, a study has found."
+    },
+    {
+      "article_preview": "summarize: A new study published in Nature reveals that climate change is affecting bird migration p...",
+      "summary": "Scientists have found that climate change is affecting bird migration patterns across North America, with some species arriving at their breeding grounds earlier than they did 50 years ago."
+    },
+    {
+      "article_preview": "summarize: The latest artificial intelligence model from OpenAI has demonstrated unprecedented capab...",
+      "summary": "Artificial intelligence is a major advancement in human-AI communication, a new technology that has been developed by the OpenAI team. It is the first of its kind in the field of artificial intelligence, which is based in the United States."
+    },
+    {
+      "article_preview": "summarize: Astronomers using the powerful telescopes atop Mauna Kea on Hawaii's Big Island have disc...",
+      "summary": "Scientists have discovered an exoplanet that orbits around the planet Virgo on Hawaii's Mauna Kea, the world's largest astronomical research site."
+    },
+    {
+      "article_preview": "summarize: Hawaii has reached a historic milestone in its transition to renewable energy, with solar...",
+      "summary": "Hawaii is the first U.S. state with such a comprehensive clean energy mandate in the world, a milestone that has made it the first state to achieve a clean energy goal by 2030."
+    }
+  ]
+}
